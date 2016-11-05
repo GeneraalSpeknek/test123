@@ -14,6 +14,7 @@ namespace RestAPITest
     {
         public void jemoederlol()
         {
+            //hoi
             IndianScumEntities indianscumentities = new IndianScumEntities();
 
             RestCall.Rootobject _jsonRootObject = JsonConvert.DeserializeObject<RestCall.Rootobject>(new WebClient().DownloadString("http://services.groupkt.com/state/get/IND/all"));
